@@ -1,0 +1,26 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "Dummy application",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "SET NODE_ENV=development& nodemon server",
+    "prod": "SET NODE_ENV=production& nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "fs": "*",
+    "i": "^0.3.6",
+    "mysql2": "^2.2.5",
+    "npm": "^7.13.0",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
